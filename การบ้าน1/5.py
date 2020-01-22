@@ -1,4 +1,4 @@
-P = float(input('Enter Your Product price : '))
+P = float(input('Enter Your Product price: '))
 
 vat = P*(7/100)
 price = vat+P
