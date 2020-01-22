@@ -1,4 +1,4 @@
-salary = float(input('Enter Your Salary : '))
+salary = float(input('Enter Yourด Salary : '))
 
 if salary <= 20000:
     v = 2
