@@ -5,4 +5,4 @@ while p >= 1:
     x.append(n)
     p = p-1
 
-print(min(x))
+print('Min = ',min(x))
