@@ -1,4 +1,4 @@
-M = int(input('Enter Month 1-12 '))
+M = int(input('Enter Month 1-12 : '))
 
 if M == 1:
     print('January')
