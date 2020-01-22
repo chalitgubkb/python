@@ -1,7 +1,7 @@
-x = float(input('Enter Num X : '))
-y = float(input('Enter Num Y : '))
-z = float(input('Enter Num Z : '))
+x = int(input('Enter Your Num X : '))
+y = int(input('Enter Your Num Y : '))
+z = int(input('EnTER Your Num Z : '))
 
-avg = (x+y+z)/3
+avg = (x+y+y)/3
 
-print('Avg X,Y,Z = %.2f' %(avg))
+print('Avg X,Y,Z = %d' %(avg))

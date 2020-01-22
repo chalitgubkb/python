@@ -1,6 +1,6 @@
-x = float(input('Enter Your High : '))
-y = float(input('Enter Your Width: '))
+w = float(input('Enter W : '))
+h = float(input('Enter H : '))
 
-Tg = (x*y)/2
+HW = (w*h)/2
 
-print('Triangle = %.2f ' %(Tg))
+print('HW = %.2f' %(HW))
