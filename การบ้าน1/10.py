@@ -1,4 +1,4 @@
-p = int(input('Enter Your Price : '))
+p = int(input('Entดดดดดดดดดดดดดดดดดer Your Price : '))
 
 if p >= 50000:
     v = 16
