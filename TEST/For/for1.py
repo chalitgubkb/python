@@ -2,7 +2,7 @@
 #                                  land 
 
 def a():
-    s = 'Thai','Land'
+    s = 'Thai','Landd'
     for i in s:
         print(i)
 a()
