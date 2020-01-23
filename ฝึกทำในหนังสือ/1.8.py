@@ -1,6 +1,6 @@
 #วิธีการเขียนแบบ ธรรมดา
-m1 = int(input('Enter Your Num : '))
-m2 = int(input('Enter Your Num : '))
+m1 = int(input('Enter Your Num: '))
+m2 = int(input('Enter Your Num: '))
 
 if m1 > m2:
     m = m1
