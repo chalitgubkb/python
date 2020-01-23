@@ -1,4 +1,4 @@
-x = input('Enter Your Char : ')
+x = input('Enter Your Char: ')
 
 if x == 'M':
     print('Individual is married')
