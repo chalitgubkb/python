@@ -9,4 +9,4 @@ while n <= 2:
     sum = sum + s[n - 1]
     n = n + 1
 print('List : ',s)
-print('sumD = ',sum)
+print('sum = ',sum)
