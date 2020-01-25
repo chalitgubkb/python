@@ -5,4 +5,4 @@ n = int(input('Enter Your NUM : '))
 while n>=1:
    f = n*f
    n = n-1
-print(f)
+print('Factorial = ',f)
