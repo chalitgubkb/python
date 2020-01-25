@@ -1,4 +1,4 @@
-#โปรแกรมเก็บสถิติผลการเรียนวิชา introcom ของน.ศ ชั้นปีที่1จำนวณ100คนโดยรับค่าเกรดที่เป็นตัวอักษรจากน.ศ.แต่ละคน 
+#โปรแกรมเก็บสถิติผลการเรียนวิชา introcom ของน.ศ ชั้นปีที่1จำนวณ10คนโดยรับค่าเกรดที่เป็นตัวอักษรจากน.ศ.แต่ละคน 
 #แล้วนับว่ามีน.ศ. ที่ผ่าน(pass, เกรด A-D) น.ศ. ที่เรียนไม่ผ่าน(fail,เกรด E ) และ น.ศ. ที่ถอนรายวิชา(drop,เกรด w)
 #แต่ละประเภทเป็นจำนวณเท่ามดบ้าง
 
@@ -10,6 +10,7 @@ C2 = []
 D1 = []
 D2 = []
 E = []
+W = []
 
 p = 1
 while p<=10:
@@ -38,8 +39,11 @@ while p<=10:
     elif G == 'E':
         G=1
         E.append(G)
+    elif G == 'W':
+        G=1
+        W.append(G)
     p=p+1
-print('-------------statistics-------------')
+print('-------------statisticsIntrocom-------------')
 print('Garde A: %d Person' %(sum(A)))
 print('Garde B+: %d Person' %(sum(B1)))
 print('Garde B: %d Person' %(sum(B2)))
@@ -47,5 +51,6 @@ print('Garde C+: %d Person' %(sum(C1)))
 print('Garde C: %d Person' %(sum(C2)))
 print('Garde D+: %d Person' %(sum(D1)))
 print('Garde D: %d Person' %(sum(D2)))
-print('Garde E: %d Person' %(sum(E)))
+print('Fail E: %d Person' %(sum(E)))
+print('Drop W: %d Person' %(sum(W)))
 print('-------------END-------------')
