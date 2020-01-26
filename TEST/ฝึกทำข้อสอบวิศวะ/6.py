@@ -4,7 +4,7 @@
 i = 1
 m = []
 while i <= 5:
-    n = float(input('Enter Your Num : '))
+    n = float(input('Enter Your Num: '))
     m.append(n)
     i = i+1
 
