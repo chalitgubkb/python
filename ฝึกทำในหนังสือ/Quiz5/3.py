@@ -2,7 +2,7 @@
 def c():
     Fahrenheit = float(input('Enter Your °F : '))
     Celsius = (5/9)*(Fahrenheit-32)
-    print('°F Convert °C = %.2f' %(Celsius))
+    print('°F Convert °C = %.2f' %Celsius)
 c()
 
 #===================================================

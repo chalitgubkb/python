@@ -1,6 +1,6 @@
 
 def n():
-        g = float(input('Enter Grade: '))
+        g = int(input('Enter Grade: '))
         return g
 
 def avg():
@@ -9,7 +9,7 @@ def avg():
         if b >= 80 and b <= 100:
             print('A')
             break
-        elif b >= 70 and b <= 79:
+        elif b >= 70 and b <= 79.9:
             print('B')
             break
         elif b >= 60 and b <= 69:
