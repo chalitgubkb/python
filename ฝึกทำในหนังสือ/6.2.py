@@ -1,0 +1,5 @@
+print('abs(10) = ',abs(10))
+print('abs(10.7) = ',abs(10.7))
+print('abs(10.5) = ',abs(10.5))
+print('abs(-10.7) = ',abs(-10.7))
+print('abs(-10.5) = ',abs(-10.5))
