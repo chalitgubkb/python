@@ -1,4 +1,4 @@
-#ลูปรับค่าแบบ while
+#----------- ลูปรับค่าแบบ while ------------
 i = 1
 s = []
 while i<=5:
@@ -8,7 +8,7 @@ while i<=5:
 print('Min = %d' %(min(s)))
 print('Max = %d' %(max(s)))
 
-#รับค่าแบบปกติ
+#--------------รับค่าแบบปกติ--------------
 
 n1 = int(input('Enter Your N1 : '))
 n2 = int(input('Enter Your N2 : '))
