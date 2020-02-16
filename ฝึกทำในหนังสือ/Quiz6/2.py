@@ -1,3 +1,2 @@
-from random import*
-
-print('random() = ' ,randrange(100,200))
+import random
+print('random() = ' ,random.randrange(100,200))
