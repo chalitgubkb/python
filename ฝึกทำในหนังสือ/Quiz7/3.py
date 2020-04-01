@@ -6,7 +6,7 @@ while True:
     else:
         li.append(l)
 mytuple = tuple(li)
-print('list = ',type(mytuple))
+print('list = ',(mytuple))
 print('Max = ',max(mytuple))
 print('Min = ',min(mytuple))
 print('Sum = ',sum(mytuple))
