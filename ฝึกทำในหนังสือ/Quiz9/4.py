@@ -8,7 +8,7 @@ n = int(latest.read())
 filename = "student.txt"
 f = open(filename, 'a+',encoding='utf-8')
 s = []
-print('ถ้าจะออกจากโปรแกรมพิมพ์ bye ')
+
 while True:
     if n == 3:
             break

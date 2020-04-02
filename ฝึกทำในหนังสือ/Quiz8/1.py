@@ -6,7 +6,7 @@
 
 def mydict():
     d = {1:"January" , 2:"February" , 3:"March"}
-    print(d)
+    print(d[2])
 
 def myset():
     myset = {1,1,2,2,3,4}
